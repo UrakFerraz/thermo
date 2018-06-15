@@ -121,7 +121,7 @@ p {
 	grid-column: 1 / 5;
 	grid-row: 3 / 4;
 	background-color: #ff2727;
-	margin-top: -2px;
+	margin: -3vh 0px;
 
 }
 
@@ -288,9 +288,10 @@ p {
 
 
 .diagonal-nanobeads {
+	margin: -1vh 0px;
 	grid-column: 1 / 4;
 	grid-row: 1 / 2;
-	z-index: 2;
+	z-index: 1;
 }
 
 .red-background {
@@ -300,6 +301,8 @@ p {
 }
 
 .nanobeads-content {
+	position: relative;
+	z-index: 2;
 	grid-column: 2 / 3;
 	grid-row: 3 / 4;
 }
@@ -471,6 +474,7 @@ p {
 
 
 .research-diagonal-top {
+	margin: -1vh 0px;
 	grid-column: 1 / 5;
 	grid-row: 1 / 2;
 }
@@ -713,7 +717,7 @@ p {
 
 
 .research-diagonal-footer {
-	margin-top: -5px;
+	margin: -3vw 0px;
 	position: relative;
 	background: url('../assets/darkred-left-diagonal.svg');
 	background-size: cover;
@@ -785,6 +789,11 @@ p {
 
 .quality-container p{
 	padding-top: 30px; 
+}
+
+.diagonal-blue,
+.diagonal-light-blue {
+	margin: -1vh 0px;
 }
 
 .quality-lead {
