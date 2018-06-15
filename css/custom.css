@@ -852,16 +852,11 @@ p {
 }
 
 .red-bg-footer {
-	margin: -10px;
 	background: #ff2727;
-	grid-column: 1 / 4;
-	grid-row: 9 / 16;
 }
 
 .pote-footer {
 	padding: 12vh;
-	grid-column: 1 / 4;
-	grid-row: 8 / 15;
 }
 
 
