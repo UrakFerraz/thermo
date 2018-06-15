@@ -70,6 +70,22 @@ p {
 	text-align: justify;
 }
 
+
+.shadow-png {
+	-webkit-filter: drop-shadow(-10px 15px 30px #260f0f );
+  filter: drop-shadow(-10px 15px 30px #260f0f);
+}
+
+.shadow-svg {
+	-webkit-filter: drop-shadow(0px 15px 10px #260f0f );
+  filter: drop-shadow(0px 15px 10px #260f0f);
+}
+
+.shadow-light {
+	-webkit-filter: drop-shadow(0px 15px 10px #a0a0a0 );
+  filter: drop-shadow(0px 15px 10px #a0a0a0);
+}
+
 /* base */
 
 
@@ -451,7 +467,7 @@ p {
 	position: relative;
 	display: grid;
 	grid-template-columns: 20px 1fr 1fr 20px;
-	grid-template-rows: 15vh auto auto;
+	grid-template-rows: 19vh auto auto;
 	z-index: 3;
 	margin-top: -100px;
 	color: #fff;
@@ -705,12 +721,13 @@ p {
 
 
 .research-diagonal-footer {
+	margin-top: -5px;
 	position: relative;
 	background: url('../assets/darkred-left-diagonal.svg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	align-self: stretch; 
-	height: 50vw;
+	height: 40vw;
 	transform: rotate(180deg);
 }
 
