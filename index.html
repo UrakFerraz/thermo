@@ -82,7 +82,12 @@
 		</div>
 
 		<div class="text-icon-top">
-		<p>Produced for healthy weight loss Lipo Cuts™ provides the body with a ready source of fuel that can be easily converted into energy to help boost your metabolism so that you resist those pesky cravings and may help support your weight loss. Using TERRA Intelligent Dosing™, an innovative formulation method that delivers premium ingredients via liquid and time release beadlets. The beadlets are coated in multiple layers that release ingredients over time. Enjoy a fat burner that actually works in your quest to achieve a healthy body.</p>
+		<p data-animate-scroll='{   
+      "y": "30",  
+      "alpha": "1",  
+      "easingType": "Expo.easeOut",  
+      "duration": "0.5"  
+      }'>Produced for healthy weight loss Lipo Cuts™ provides the body with a ready source of fuel that can be easily converted into energy to help boost your metabolism so that you resist those pesky cravings and may help support your weight loss. Using TERRA Intelligent Dosing™, an innovative formulation method that delivers premium ingredients via liquid and time release beadlets. The beadlets are coated in multiple layers that release ingredients over time. Enjoy a fat burner that actually works in your quest to achieve a healthy body.</p>
 		</div>
 <!-- fim icones topo -->
 
@@ -415,24 +420,29 @@ The advanced blend of ingredients also includes agents that support macronutrien
 <!-- INÍCIO ITENS JAVASCRIPT -->
 
 <!-- JAVASCRIPT JQUERY -->
-<script type='text/javascript' src='js/jquery-3.3.1.min.js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
 
 
 
-<!-- INÍCIO ITENS JAVASCRIPT -->
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/CSSPlugin.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/easing/EasePack.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/PixiPlugin.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/ScrollToPlugin.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/EaselPlugin.min.js"></script>
+<script type='text/javascript' src='js/gsap/animate-scroll.js'></script>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/CSSPlugin.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/easing/EasePack.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/PixiPlugin.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-
+<!-- CUSTOM JS -->
 <script type='text/javascript' src='js/custom.js'></script>
-<script type='text/javascript' src='js/scrollmagic.js'></script>
 <script type='text/javascript' src='js/preloader.js'></script>
+
+<script type='text/javascript'>
+	$(document).animateScroll();
+</script>
+
+
+
 
 	</body>
 </html>
