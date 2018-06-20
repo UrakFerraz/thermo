@@ -19,23 +19,29 @@
    <!-- Style sheet link -->
    <link rel="stylesheet" type="text/css" href="css/reset.css">
    <link rel="stylesheet" type="text/css" href="css/custom.css">
+   <link rel="stylesheet" type="text/css" href="css/preloader.css">
 
 	
 </head>
 <body>
 
+	<!-- Preloader -->
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+
 <!-- INÍCIO HOME -->
 <div class="home-total-container">
-	<div class="foto-topo"></div>
-	<div class="title-topo">
+	<div id="foto-topo-anime" class="foto-topo"></div>
+	<div id="anime-top-text" class="title-topo">
 		<h1 class="align-right">INNER FLAME</h1>
 	</div>
 	<div class="divred-right-diagonal"></div>
 	<div class="post-divred-right-diagonal"></div>
 	<div class="bottle-rx-topo">
-		<img class="shadow-png" src="assets/bottle.png">
+		<img id="header" class="shadow-png" src="assets/bottle.png">
 	</div>
-	
+	<div id="red-shape-anime-entry" class="red-shape-anime-top"></div>
 </div>
 <!-- FIM HOME -->
 
@@ -408,10 +414,20 @@ The advanced blend of ingredients also includes agents that support macronutrien
 <!-- INÍCIO ITENS JAVASCRIPT -->
 
 <!-- JAVASCRIPT JQUERY -->
-<script type='text/javascript' src='css/jquery-3.3.1.min.js'></script>
+<script type='text/javascript' src='js/jquery-3.3.1.min.js'></script>
 
 
 
 <!-- INÍCIO ITENS JAVASCRIPT -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/CSSPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/easing/EasePack.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/PixiPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+
+<script type='text/javascript' src='js/custom.js'></script>
+<script type='text/javascript' src='js/preloader.js'></script>
+
 	</body>
 </html>

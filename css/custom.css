@@ -90,12 +90,20 @@ p {
 
 
 .home-total-container {
+	background: #000;
 	position: relative;
 	display: grid;
 	grid-template-columns: 20px 1fr 1fr 20px;
 	grid-template-rows: auto 75vh 15vh auto auto;
 }
 
+.red-shape-anime-top {
+	background: #ff2727;
+	position: relative;
+	z-index: 1;
+	grid-column: 1 / 5;
+	grid-row: 1 / 4;
+}
 
 .foto-topo {
 	grid-column: 1 / 5;
@@ -118,6 +126,7 @@ p {
 }
 
 .post-divred-right-diagonal {
+	position: relative;
 	grid-column: 1 / 5;
 	grid-row: 3 / 4;
 	background-color: #ff2727;
