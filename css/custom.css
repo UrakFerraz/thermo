@@ -90,7 +90,7 @@ p {
 
 
 .home-total-container {
-	background: #fff;
+	background: #000;
 	position: relative;
 	display: grid;
 	grid-template-columns: 20px 1fr 1fr 20px;
