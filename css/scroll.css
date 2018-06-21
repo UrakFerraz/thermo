@@ -111,8 +111,8 @@
 .project11 {
 	opacity: 0;
 	transform: translateY(80px);
-	transition: all 2s ease-out;
-	transition-delay: 0.5s;
+	transition: all 1s ease-out;
+	transition-delay: 0.2s;
 }
 
 .project11.fade-in-post-cap {

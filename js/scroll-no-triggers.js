@@ -11,7 +11,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project01', 'fade-in') //add class to ptoject01
-	.addIndicators()
 	.addTo(controller);
 
 
@@ -24,7 +23,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project02', 'fade-in-left') //add class to ptoject01
-	.addIndicators()
 	.addTo(controller);
 
 
@@ -36,7 +34,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project03', 'fade-in-left') //add class to ptoject01
-	.addIndicators()
 	.addTo(controller);
 
 
@@ -48,7 +45,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project04', 'fade-in-left') //add class to ptoject01
-	.addIndicators()
 	.addTo(controller);
 
 	
@@ -60,7 +56,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project05', 'fade-in-left') //add class to ptoject01
-	.addIndicators()
 	.addTo(controller);
 
 	
@@ -72,11 +67,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project06', 'fade-in-right') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene6',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 		// Build a scene project7
@@ -87,11 +77,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project07', 'fade-in-right') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene7',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 		// Build a scene project8
@@ -102,11 +87,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project08', 'fade-in-right') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene8',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 		// Build a scene project9
@@ -117,11 +97,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project09', 'fade-in-right') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene9',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -133,11 +108,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project010', 'fade-in-top') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene10',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -149,11 +119,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project011', 'fade-in-post-cap') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene11',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -165,11 +130,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project012', 'fade-in-cap1-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene12',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -181,11 +141,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project013', 'fade-in-cap') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene13',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -197,11 +152,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project014', 'fade-in-rabbit') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene14',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -213,11 +163,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project015', 'fade-in-turtle') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene15',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 				// Build a scene project 016
@@ -228,11 +173,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project016', 'fade-in-rabbit-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene16',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -244,11 +184,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project017', 'fade-in-turtle-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene17',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 				// Build a scene project 018
@@ -259,11 +194,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project018', 'fade-in-never-seen') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene18',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -275,11 +205,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project019', 'fade-in-ingre1') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene19',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 					// Build a scene project 020
@@ -290,11 +215,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project020', 'fade-in-ingre2') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene20',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 						// Build a scene project 021
@@ -305,11 +225,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project021', 'fade-in-ingre3') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene21',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 							// Build a scene project 022
@@ -320,11 +235,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project022', 'fade-in-ingre4') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene22',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -336,11 +246,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project023', 'fade-in-ingre5') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene23',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -352,11 +257,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project024', 'fade-in-ingre6') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene24',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 										// Build a scene project 025
@@ -367,11 +267,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project025', 'fade-in-ingre7') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene25',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -383,11 +278,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project026', 'fade-in-ingre1-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene26',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -399,11 +289,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project027', 'fade-in-ingre2-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene27',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 													// Build a scene project 028
@@ -414,11 +299,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project028', 'fade-in-ingre3-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene28',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 														// Build a scene project 029
@@ -429,11 +309,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project029', 'fade-in-ingre4-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene29',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 															// Build a scene project 030
@@ -444,11 +319,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project030', 'fade-in-ingre5-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene30',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -460,11 +330,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project031', 'fade-in-ingre6-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene31',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -476,11 +341,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project032', 'fade-in-ingre7-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene32',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -492,11 +352,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project033', 'fade-in-study-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene33',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 	// Build a scene project 034
@@ -507,11 +362,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project034', 'fade-in-placebo-line') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene34',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 		// Build a scene project 035
@@ -522,11 +372,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project035', 'fade-in-lipo-line') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene35',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -539,11 +384,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project036', 'fade-in-placebo-text') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene36',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -555,11 +395,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project037', 'fade-in-lipo-text') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene37',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 					// Build a scene project 038
@@ -570,11 +405,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project038', 'fade-in-graph1-text') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene38',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 						// Build a scene project 039
@@ -585,11 +415,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project039', 'fade-in-graph1-text1') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene39',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 							// Build a scene project 040
@@ -600,11 +425,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project040', 'fade-in-graph1-photo1') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene40',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 								// Build a scene project 041
@@ -615,11 +435,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project041', 'fade-in-graph1-photo1-text') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene41',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -631,11 +446,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project042', 'fade-in-dexa-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene42',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 	// Build a scene project 043
@@ -646,11 +456,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project043', 'fade-in-dexa-photo1') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene43',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 		// Build a scene project 044
@@ -661,11 +466,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project044', 'fade-in-dexa-graph') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene44',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -677,11 +477,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project045', 'fade-in-dexa-graph-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene45',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 				// Build a scene project 045
@@ -692,11 +487,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project045', 'fade-in-dexa-graph-1') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene45',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -709,11 +499,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project046', 'fade-in-dexa-graph-2') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene46',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -725,11 +510,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project047', 'fade-in-dexa-graph-3') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene47',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -741,11 +521,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project048', 'fade-in-dexa-graph-4') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene48',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -757,11 +532,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project049', 'fade-in-dexa-graph-g1') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene49',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -773,11 +543,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project050', 'fade-in-dexa-graph-g2') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene50',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -789,11 +554,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project051', 'fade-in-success-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene51',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 			// Build a scene project 052
@@ -804,11 +564,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project052', 'fade-in-success-photo1') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene52',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -820,11 +575,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project053', 'fade-in-success-photo2') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene53',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 					// Build a scene project 054
@@ -835,11 +585,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project054', 'fade-in-success-photo3') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene54',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -851,11 +596,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project055', 'fade-in-success-photo4') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene55',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -867,11 +607,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project056', 'fade-in-success-photo5') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene56',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 							// Build a scene project 057
@@ -882,11 +617,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project057', 'fade-in-success-photo6') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene57',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 								// Build a scene project 058
@@ -897,11 +627,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project058', 'fade-in-success-photo7') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene58',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 									// Build a scene project 059
@@ -912,11 +637,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project059', 'fade-in-science-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene59',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -928,11 +648,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project060', 'fade-in-science-photo') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene60',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 										// Build a scene project 061
@@ -943,11 +658,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project061', 'fade-in-science-text') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene61',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -959,11 +669,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project062', 'fade-in-extreme-lead') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene62',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 												// Build a scene project 063
@@ -974,11 +679,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project063', 'fade-in-extreme-photo') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene63',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 													// Build a scene project 064
@@ -989,11 +689,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project064', 'fade-in-extreme-text') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene64',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -1005,11 +700,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project065', 'fade-in-extreme-photo2') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene65',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -1021,11 +711,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project066', 'fade-in-extreme-photo2-icon1') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene66',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -1038,11 +723,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project067', 'fade-in-extreme-photo2-icon2') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene67',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -1054,11 +734,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project068', 'fade-in-extreme-photo2-icon3') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene68',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
@@ -1071,11 +746,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project069', 'fade-in-extreme-photo2-icon4') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene69',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 			// Build a scene project 070
@@ -1086,11 +756,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project070', 'fade-in-extreme-photo2-icon5') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene70',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 			// Build a scene project 071
@@ -1101,11 +766,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project071', 'fade-in-extreme-photo2-icon6') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene71',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 				// Build a scene project 072
@@ -1116,11 +776,6 @@ $(document).ready(function(){
 	})
 
 	.setClassToggle('#project072', 'fade-in-rx') //add class to ptoject01
-	.addIndicators({
-		name: 'fade scene72',
-		colorTrigger: 'black',
-		colorEnd: 'pink'
-	})
 	.addTo(controller);
 
 
