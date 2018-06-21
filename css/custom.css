@@ -1,4 +1,7 @@
 /* base */
+body {
+	background: #ff2727;
+}
 
 h1 {
 	font-family: 'Russo One', sans-serif;

@@ -1,6 +1,6 @@
 /*!
  * VERSION: 0.3.1
- * DATE: 2018-05-30
+ * DATE: 2018-02-15
  * UPDATES AND DOCS AT: http://greensock.com
  *
  * @license Copyright (c) 2008-2018, GreenSock. All rights reserved.
@@ -9,10 +9,12 @@
  * 
  * @author: Jack Doyle, jack@greensock.com
  **/
+var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(global) !== "undefined") ? global : this || window; //helps ensure compatibility with AMD/RequireJS and CommonJS/Node
+(_gsScope._gsQueue || (_gsScope._gsQueue = [])).push( function() {
 
-import { _gsScope } from "./TweenLite.js";
+	"use strict";
 
-export const DirectionalRotationPlugin = _gsScope._gsDefine.plugin({
+	_gsScope._gsDefine.plugin({
 		propName: "directionalRotation",
 		version: "0.3.1",
 		API: 2,
@@ -78,8 +80,20 @@ export const DirectionalRotationPlugin = _gsScope._gsDefine.plugin({
 			}
 		}
 
-	});
+	})._autoCSS = true;
 
-DirectionalRotationPlugin._autoCSS = true;
+}); if (_gsScope._gsDefine) { _gsScope._gsQueue.pop()(); }
 
-export { DirectionalRotationPlugin as default };
+//export to AMD/RequireJS and CommonJS/Node (precursor to full modular build system coming at a later date)
+(function(name) {
+	"use strict";
+	var getGlobal = function() {
+		return (_gsScope.GreenSockGlobals || _gsScope)[name];
+	};
+	if (typeof(module) !== "undefined" && module.exports) { //node
+		require("../TweenLite.js");
+		module.exports = getGlobal();
+	} else if (typeof(define) === "function" && define.amd) { //AMD
+		define(["TweenLite"], getGlobal);
+	}
+}("DirectionalRotationPlugin"));

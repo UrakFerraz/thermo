@@ -1,6 +1,6 @@
 /*!
  * VERSION: 0.2.1
- * DATE: 2018-05-30
+ * DATE: 2018-02-15
  * UPDATES AND DOCS AT: http://greensock.com
  *
  * @license Copyright (c) 2008-2018, GreenSock. All rights reserved.
@@ -9,9 +9,9 @@
  *
  * @author: Jack Doyle, jack@greensock.com
  */
-
-import { _gsScope } from "./TweenLite.js";
-
+var _gsScope = (typeof module !== "undefined" && module.exports && typeof global !== "undefined") ? global : this || window;
+(_gsScope._gsQueue || (_gsScope._gsQueue = [])).push(function () {
+    "use strict";
 
     var _numExp = /(\d|\.)+/g,
 		_relNumExp = /(?:\d|\-\d|\.\d|\-\.\d|\+=\d|\-=\d|\+=.\d|\-=\.\d)+/g,
@@ -460,4 +460,19 @@ import { _gsScope } from "./TweenLite.js";
 	PixiPlugin.formatColors = _formatColors;
 	PixiPlugin.colorStringFilter = _colorStringFilter;
 
-export { PixiPlugin, PixiPlugin as default };
+
+}); if (_gsScope._gsDefine) { _gsScope._gsQueue.pop()(); }
+
+//export to AMD/RequireJS and CommonJS/Node (precursor to full modular build system coming at a later date)
+(function(name) {
+	"use strict";
+	var getGlobal = function() {
+		return (_gsScope.GreenSockGlobals || _gsScope)[name];
+	};
+	if (typeof(module) !== "undefined" && module.exports) { //node
+		require("../TweenLite.js");
+		module.exports = getGlobal();
+	} else if (typeof(define) === "function" && define.amd) { //AMD
+		define(["TweenLite"], getGlobal);
+	}
+}("PixiPlugin"));
