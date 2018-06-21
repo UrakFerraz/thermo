@@ -124,8 +124,8 @@
 .project12 {
 	opacity: 0;
 	transform: translateY(-40px);
-	transition: all 1s ease-out;
-	transition-delay: 0.5s;
+	transition: all 0.3s ease-out;
+	transition-delay: 0.1s;
 }
 
 .project12.fade-in-cap1-lead {
@@ -137,8 +137,8 @@
 .project13 {
 	opacity: 0;
 	transform: translateY(40px);
-	transition: all 1s ease-out;
-	transition-delay: 0.5s;
+	transition: all 0.4s ease-out;
+	transition-delay: 0.2s;
 }
 
 .project13.fade-in-cap {
@@ -149,8 +149,8 @@
 .project14 {
 	opacity: 0;
 	transform: translateY(-40px);
-	transition: all 1s ease-out;
-	transition-delay: 0.6s;
+	transition: all 0.5s ease-out;
+	transition-delay: 0.4s;
 }
 
 .project14.fade-in-rabbit {
@@ -161,8 +161,8 @@
 .project15 {
 	opacity: 0;
 	transform: translateY(-40px);
-	transition: all 1.2s ease-out;
-	transition-delay: 0.9s;
+	transition: all 0.6s ease-out;
+	transition-delay: 0.3s;
 }
 
 .project15.fade-in-turtle {
@@ -174,8 +174,8 @@
 .project16 {
 	opacity: 0;
 	transform: translateY(-50px);
-	transition: all 1.2s ease-out;
-	transition-delay: 0.7s;
+	transition: all 0.7s ease-out;
+	transition-delay: 0.5s;
 }
 
 .project16.fade-in-rabbit-lead {
@@ -186,8 +186,8 @@
 .project17 {
 	opacity: 0;
 	transform: translateY(-50px);
-	transition: all 1.3s ease-out;
-	transition-delay: 1s;
+	transition: all 0.8s ease-out;
+	transition-delay: 0.1s;
 }
 
 .project17.fade-in-turtle-lead {
